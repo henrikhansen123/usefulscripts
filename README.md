@@ -1,6 +1,7 @@
 This repositories contains some of my more useful scripts for different programs
 
 # createDocument.ps1
+
 This Powershell-script automates the tedious task of creating a pdf-file with tables and graphs.
 
 If you're using Stata or R to create tables of regressions results or graphics,
@@ -30,3 +31,15 @@ global runDoFiles shell "C:\path\to\powershell.exe" "D:\path\to\callStata.ps1"
 $runDoFiles "file1" "file2" "file3"
 $runDoFiles "file4" "file5"
 ```
+
+# user.bind
+
+This is my LyX-bindings. 
+
+I have created a bunch of VIM-keybindings for LyX,
+where normal mode is activated by holding down the ALT key.
+
+
+# .vimrc
+
+This is my VIM configuration file.
