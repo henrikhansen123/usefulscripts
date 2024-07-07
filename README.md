@@ -13,7 +13,8 @@ compiles the .tex-file,
 and then open the .pdf.
 
 Version 18 of Stata is, in my opinion, weird about the use of "$" in .tex-files,
-so the script also rewrites all "\$" to "$", so all the .tex-file can be compiled.
+so the script also rewrites all "\\$" to "$", so all the .tex-file can be compiled.
+This requires SED, which is included in UNIX, or git bash for windows.
 
 # callStata.ps1 
 
