@@ -50,10 +50,12 @@ This is my VIM configuration file.
 This bash-script reads the given files for comments of the form
 
 /\*\*
+
 Here is the text that will be extracted.
 Here is more text.
 
 etc.
+
 \*\*/
 
 and input it into a tex file, compile it and open it.
